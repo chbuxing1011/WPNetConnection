@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC1375919D0365F0007134B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1375819D0365F0007134B /* Foundation.framework */; };
+		CEC1375B19D0365F0007134B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1375A19D0365F0007134B /* CoreGraphics.framework */; };
+		CEC1375D19D0365F0007134B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1375C19D0365F0007134B /* UIKit.framework */; };
+		CEC1376319D0365F0007134B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC1376119D0365F0007134B /* InfoPlist.strings */; };
+		CEC1376519D0365F0007134B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1376419D0365F0007134B /* main.m */; };
+		CEC1376919D0365F0007134B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1376819D0365F0007134B /* AppDelegate.m */; };
+		CEC1376C19D0365F0007134B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1376A19D0365F0007134B /* Main.storyboard */; };
+		CEC1376F19D0365F0007134B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1376E19D0365F0007134B /* FirstViewController.m */; };
+		CEC1377219D0365F0007134B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1377119D0365F0007134B /* SecondViewController.m */; };
+		CEC1377419D0365F0007134B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC1377319D0365F0007134B /* Images.xcassets */; };
+		CEC1377B19D0365F0007134B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1377A19D0365F0007134B /* XCTest.framework */; };
+		CEC1377C19D0365F0007134B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1375819D0365F0007134B /* Foundation.framework */; };
+		CEC1377D19D0365F0007134B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1375C19D0365F0007134B /* UIKit.framework */; };
+		CEC1378519D0365F0007134B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC1378319D0365F0007134B /* InfoPlist.strings */; };
+		CEC1378719D0365F0007134B /* WPNetConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1378619D0365F0007134B /* WPNetConnectionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC1377E19D0365F0007134B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC1374D19D0365F0007134B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC1375419D0365F0007134B;
+			remoteInfo = WPNetConnection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC1375519D0365F0007134B /* WPNetConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPNetConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1375819D0365F0007134B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC1375A19D0365F0007134B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC1375C19D0365F0007134B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC1376019D0365F0007134B /* WPNetConnection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPNetConnection-Info.plist"; sourceTree = "<group>"; };
+		CEC1376219D0365F0007134B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC1376419D0365F0007134B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC1376619D0365F0007134B /* WPNetConnection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPNetConnection-Prefix.pch"; sourceTree = "<group>"; };
+		CEC1376719D0365F0007134B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC1376819D0365F0007134B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC1376B19D0365F0007134B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC1376D19D0365F0007134B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CEC1376E19D0365F0007134B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CEC1377019D0365F0007134B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CEC1377119D0365F0007134B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CEC1377319D0365F0007134B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEC1377919D0365F0007134B /* WPNetConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPNetConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1377A19D0365F0007134B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEC1378219D0365F0007134B /* WPNetConnectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPNetConnectionTests-Info.plist"; sourceTree = "<group>"; };
+		CEC1378419D0365F0007134B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC1378619D0365F0007134B /* WPNetConnectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPNetConnectionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC1375219D0365F0007134B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1375B19D0365F0007134B /* CoreGraphics.framework in Frameworks */,
+				CEC1375D19D0365F0007134B /* UIKit.framework in Frameworks */,
+				CEC1375919D0365F0007134B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1377619D0365F0007134B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1377B19D0365F0007134B /* XCTest.framework in Frameworks */,
+				CEC1377D19D0365F0007134B /* UIKit.framework in Frameworks */,
+				CEC1377C19D0365F0007134B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC1374C19D0365F0007134B = {
+			isa = PBXGroup;
+			children = (
+				CEC1375E19D0365F0007134B /* WPNetConnection */,
+				CEC1378019D0365F0007134B /* WPNetConnectionTests */,
+				CEC1375719D0365F0007134B /* Frameworks */,
+				CEC1375619D0365F0007134B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC1375619D0365F0007134B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1375519D0365F0007134B /* WPNetConnection.app */,
+				CEC1377919D0365F0007134B /* WPNetConnectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC1375719D0365F0007134B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1375819D0365F0007134B /* Foundation.framework */,
+				CEC1375A19D0365F0007134B /* CoreGraphics.framework */,
+				CEC1375C19D0365F0007134B /* UIKit.framework */,
+				CEC1377A19D0365F0007134B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC1375E19D0365F0007134B /* WPNetConnection */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1376719D0365F0007134B /* AppDelegate.h */,
+				CEC1376819D0365F0007134B /* AppDelegate.m */,
+				CEC1376A19D0365F0007134B /* Main.storyboard */,
+				CEC1376D19D0365F0007134B /* FirstViewController.h */,
+				CEC1376E19D0365F0007134B /* FirstViewController.m */,
+				CEC1377019D0365F0007134B /* SecondViewController.h */,
+				CEC1377119D0365F0007134B /* SecondViewController.m */,
+				CEC1377319D0365F0007134B /* Images.xcassets */,
+				CEC1375F19D0365F0007134B /* Supporting Files */,
+			);
+			path = WPNetConnection;
+			sourceTree = "<group>";
+		};
+		CEC1375F19D0365F0007134B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1376019D0365F0007134B /* WPNetConnection-Info.plist */,
+				CEC1376119D0365F0007134B /* InfoPlist.strings */,
+				CEC1376419D0365F0007134B /* main.m */,
+				CEC1376619D0365F0007134B /* WPNetConnection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC1378019D0365F0007134B /* WPNetConnectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1378619D0365F0007134B /* WPNetConnectionTests.m */,
+				CEC1378119D0365F0007134B /* Supporting Files */,
+			);
+			path = WPNetConnectionTests;
+			sourceTree = "<group>";
+		};
+		CEC1378119D0365F0007134B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1378219D0365F0007134B /* WPNetConnectionTests-Info.plist */,
+				CEC1378319D0365F0007134B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC1375419D0365F0007134B /* WPNetConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC1378A19D0365F0007134B /* Build configuration list for PBXNativeTarget "WPNetConnection" */;
+			buildPhases = (
+				CEC1375119D0365F0007134B /* Sources */,
+				CEC1375219D0365F0007134B /* Frameworks */,
+				CEC1375319D0365F0007134B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPNetConnection;
+			productName = WPNetConnection;
+			productReference = CEC1375519D0365F0007134B /* WPNetConnection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC1377819D0365F0007134B /* WPNetConnectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC1378D19D0365F0007134B /* Build configuration list for PBXNativeTarget "WPNetConnectionTests" */;
+			buildPhases = (
+				CEC1377519D0365F0007134B /* Sources */,
+				CEC1377619D0365F0007134B /* Frameworks */,
+				CEC1377719D0365F0007134B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC1377F19D0365F0007134B /* PBXTargetDependency */,
+			);
+			name = WPNetConnectionTests;
+			productName = WPNetConnectionTests;
+			productReference = CEC1377919D0365F0007134B /* WPNetConnectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC1374D19D0365F0007134B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEC1377819D0365F0007134B = {
+						TestTargetID = CEC1375419D0365F0007134B;
+					};
+				};
+			};
+			buildConfigurationList = CEC1375019D0365F0007134B /* Build configuration list for PBXProject "WPNetConnection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC1374C19D0365F0007134B;
+			productRefGroup = CEC1375619D0365F0007134B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC1375419D0365F0007134B /* WPNetConnection */,
+				CEC1377819D0365F0007134B /* WPNetConnectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC1375319D0365F0007134B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1377419D0365F0007134B /* Images.xcassets in Resources */,
+				CEC1376319D0365F0007134B /* InfoPlist.strings in Resources */,
+				CEC1376C19D0365F0007134B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1377719D0365F0007134B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1378519D0365F0007134B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC1375119D0365F0007134B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1377219D0365F0007134B /* SecondViewController.m in Sources */,
+				CEC1376919D0365F0007134B /* AppDelegate.m in Sources */,
+				CEC1376F19D0365F0007134B /* FirstViewController.m in Sources */,
+				CEC1376519D0365F0007134B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC1377519D0365F0007134B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1378719D0365F0007134B /* WPNetConnectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC1377F19D0365F0007134B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC1375419D0365F0007134B /* WPNetConnection */;
+			targetProxy = CEC1377E19D0365F0007134B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC1376119D0365F0007134B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1376219D0365F0007134B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC1376A19D0365F0007134B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1376B19D0365F0007134B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC1378319D0365F0007134B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1378419D0365F0007134B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC1378819D0365F0007134B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC1378919D0365F0007134B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC1378B19D0365F0007134B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPNetConnection/WPNetConnection-Prefix.pch";
+				INFOPLIST_FILE = "WPNetConnection/WPNetConnection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC1378C19D0365F0007134B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPNetConnection/WPNetConnection-Prefix.pch";
+				INFOPLIST_FILE = "WPNetConnection/WPNetConnection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEC1378E19D0365F0007134B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WPNetConnection.app/WPNetConnection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPNetConnection/WPNetConnection-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WPNetConnectionTests/WPNetConnectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEC1378F19D0365F0007134B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WPNetConnection.app/WPNetConnection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPNetConnection/WPNetConnection-Prefix.pch";
+				INFOPLIST_FILE = "WPNetConnectionTests/WPNetConnectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC1375019D0365F0007134B /* Build configuration list for PBXProject "WPNetConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1378819D0365F0007134B /* Debug */,
+				CEC1378919D0365F0007134B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC1378A19D0365F0007134B /* Build configuration list for PBXNativeTarget "WPNetConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1378B19D0365F0007134B /* Debug */,
+				CEC1378C19D0365F0007134B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC1378D19D0365F0007134B /* Build configuration list for PBXNativeTarget "WPNetConnectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1378E19D0365F0007134B /* Debug */,
+				CEC1378F19D0365F0007134B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC1374D19D0365F0007134B /* Project object */;
+}
